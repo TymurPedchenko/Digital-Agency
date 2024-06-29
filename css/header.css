@@ -1,0 +1,35 @@
+/* header-active-color: #9975FF */
+
+/* Logo */
+.logo {
+  color: var(--background-color);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--primary-text-color);
+}
+
+/* Site nav */
+.site-nav .link {
+  color: var(--background-color);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:active {
+  color: var(--header-active-color);
+}
+
+.background .header {
+  background-color: var(--hero-background-color);
+}

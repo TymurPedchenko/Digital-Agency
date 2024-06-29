@@ -1,0 +1,11 @@
+.team-member {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.14;
+}
+.member-funktion {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.14;
+}

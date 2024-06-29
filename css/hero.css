@@ -1,0 +1,16 @@
+.hero-title {
+  color: var(--background-color);
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 1.18;
+}
+.hero-text {
+  color: var(--light-title-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.69;
+}
+
+.background .hero-section {
+  background-color: var(--hero-background-color);
+}

@@ -1,0 +1,47 @@
+.blog-title {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2;
+}
+.blog-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.news.blue {
+  background-color: var(--reviews-background-color);
+}
+.news-title {
+  color: var(--primary-text-color);
+}
+.white .news-title {
+  color: var(--background-color);
+}
+.news-datetime {
+  color: var(--reviews-background-color);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.white .news-datetime {
+  color: var(--background-color);
+}
+.news-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.56;
+  letter-spacing: -0.01em;
+}
+.white .news-text {
+  color: var(--news-text-color);
+}
+.news-link {
+  color: var(--reviews-background-color);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.white .news-link {
+  color: var(--background-color);
+}

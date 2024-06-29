@@ -1,0 +1,16 @@
+.service-name {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.service-description {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+.service {
+  background-color: var(--services-background-color);
+}

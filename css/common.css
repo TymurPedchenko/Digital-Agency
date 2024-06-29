@@ -1,0 +1,81 @@
+/* background color #FFFFFF */
+/* первичный цвет #262A4E */
+/* вторичный цвет #646464 / #FAFAFA */
+/* заголовки #2370C8 */
+/* вторичный цвет фона #F2F9FF */
+/* 3 цвет фона #3782D7 */
+/* 4 цвет фона #CFEAFF */
+/* clients #6AB0FF */
+/* client-review #F2F2F2 */
+/* services #CFEAFF */
+/* news text #F9F9F9 */
+
+:root {
+  --primary-text-color: #262a4e;
+  --dark-title-text-color: #646464;
+  --light-title-text-color: #fafafa;
+  --background-color: #ffffff;
+  --hero-background-color: #122e99;
+  --advantages-background-color: #f2f9ff;
+  --team-background-color: #f2f9ff;
+  --subtitle-color: #2370c8;
+  --reviews-background-color: #3782d7;
+  --reviews-clients-background-color: #6ab0ff;
+  --client-review-color: #f2f2f2;
+  --header-active-color: #9975ff;
+  --services-background-color: #cfeaff;
+  --news-text-color: #f9f9f9;
+  --footer-copyright-color: #4b4b4b;
+  --footer-copyright-blue-color: #2370c8;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--header-color);
+  color: var(--dark-title-text-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.17;
+}
+
+/* Buttons */
+.standart-button {
+  color: var(--background-color);
+  background-color: var(--subtitle-color);
+  border-radius: 30px;
+  width: 160px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.white-button {
+  color: var(--subtitle-color);
+  background-color: var(--background-color);
+  border-radius: 30px;
+  width: 160px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* Subtitle */
+.subtitle {
+  color: var(--subtitle-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.17;
+  letter-spacing: 0.15em;
+}
+/* List & Link */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
