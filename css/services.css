@@ -1,16 +1,50 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 180px;
+  padding-bottom: 222px;
+}
+
+.services-subtitle {
+  margin-bottom: 15px;
+}
+
+.section-title {
+  margin-bottom: 69px;
+}
+
+.services-list {
+  display: flex;
+  gap: 33px;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 70px 85px;
+
+  background-color: var(--services-background-color);
+}
+
+.service-image {
+  margin-bottom: 30px;
+}
+
 .service-name {
+  margin-bottom: 14px;
+
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
 }
+
 .service-description {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-}
-.service {
-  background-color: var(--services-background-color);
 }

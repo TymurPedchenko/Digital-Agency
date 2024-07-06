@@ -1,15 +1,3 @@
-/* background color #FFFFFF */
-/* первичный цвет #262A4E */
-/* вторичный цвет #646464 / #FAFAFA */
-/* заголовки #2370C8 */
-/* вторичный цвет фона #F2F9FF */
-/* 3 цвет фона #3782D7 */
-/* 4 цвет фона #CFEAFF */
-/* clients #6AB0FF */
-/* client-review #F2F2F2 */
-/* services #CFEAFF */
-/* news text #F9F9F9 */
-
 :root {
   --primary-text-color: #262a4e;
   --dark-title-text-color: #646464;
@@ -28,10 +16,39 @@
   --footer-copyright-color: #4b4b4b;
   --footer-copyright-blue-color: #2370c8;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--header-color);
   color: var(--dark-title-text-color);
+}
+
+.container {
+  width: 1380px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: 2px solid tomato;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.list {
+  list-style: none;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.link {
+  display: block;
 }
 
 /* Section */
@@ -46,22 +63,26 @@ body {
 .standart-button {
   color: var(--background-color);
   background-color: var(--subtitle-color);
-  border-radius: 30px;
   width: 160px;
   height: 48px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.2;
+
+  border-radius: 30px;
+  cursor: pointer;
 }
 .white-button {
   color: var(--subtitle-color);
   background-color: var(--background-color);
-  border-radius: 30px;
   width: 160px;
   height: 48px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.2;
+
+  border-radius: 30px;
+  cursor: pointer;
 }
 
 /* Subtitle */

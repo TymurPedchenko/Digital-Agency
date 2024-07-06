@@ -1,26 +1,54 @@
-.section-title.reviews {
-  color: var(--background-color);
-}
 .reviews-section {
   background-color: var(--reviews-background-color);
 }
-.clients {
+
+.reviews-container {
+  padding-top: 132px;
+  padding-bottom: 84px;
+}
+
+.reviews-title {
+  margin-bottom: 44px;
+  color: var(--background-color);
+}
+
+.reviews-list {
+  display: flex;
+  gap: 30px;
+}
+
+.reviews-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 52px 66px 48px;
   background-color: var(--reviews-clients-background-color);
 }
+
+.reviews-image {
+  margin-bottom: 20px;
+}
+
 .client-name {
+  margin-bottom: 4px;
+
   color: var(--background-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 0.01em;
 }
+
 .client-function {
+  margin-bottom: 19px;
+
   color: var(--background-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.01em;
 }
+
 .client-review {
   color: var(--client-review-color);
   font-weight: 400;

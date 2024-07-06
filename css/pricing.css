@@ -1,44 +1,96 @@
+.pricing-container {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.pricing-subtitle {
+  margin-bottom: 19px;
+}
+
+.pricing-title {
+  margin-bottom: 48px;
+}
+
+.pricing-list {
+  display: flex;
+  gap: 37px;
+}
+
+.pricing-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 48px;
+  padding-bottom: 45px;
+  flex-basis: calc(100% / 3);
+}
+
+.pricing-plan {
+  margin-bottom: 27px;
+}
+
+.pricing-image {
+  margin-bottom: 20px;
+}
+
+.pricing-price {
+  margin-bottom: 10px;
+}
+
 .pricing-subscription {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
 }
-.pricing-subscription:active {
+
+.pricing-subscription:active,
+.pricing-subscription:focus {
   color: var(--subtitle-color);
 }
+
 .pricing-plan {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 25px;
 }
+
 .pricing-plan.white {
   color: var(--background-color);
 }
+
 .plan-components {
+  margin-bottom: 33px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.82;
   text-align: center;
 }
+
 .plan-components.white {
   color: var(--background-color);
 }
+
 .standart-plan {
   background-color: var(--subtitle-color);
 }
+
 .pricing-price.white {
   color: var(--background-color);
 }
+
 .pricing-price {
   color: var(--subtitle-color);
   font-weight: 500;
   font-size: 35px;
   line-height: 1.5;
 }
+
 .accent {
   font-size: 18px;
 }
+
 .second-accent {
   font-size: 16px;
 }

@@ -1,7 +1,13 @@
-/* header-active-color: #9975FF */
-
 /* Logo */
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
+  display: block;
+  margin-right: 192px;
+
   color: var(--background-color);
   font-weight: 700;
   font-size: 30px;
@@ -15,14 +21,23 @@
 }
 
 /* Site nav */
-.site-nav .link {
+.site-nav {
+  display: flex;
+  margin-top: 0 0;
+  gap: 50px;
+}
+
+.site-nav-link {
+  display: block;
+  padding: 20px 0;
+
   color: var(--background-color);
   font-weight: 500;
   font-size: 16px;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: var(--primary-text-color);
 }
 
@@ -30,6 +45,6 @@
   color: var(--header-active-color);
 }
 
-.background .header {
+.header {
   background-color: var(--hero-background-color);
 }

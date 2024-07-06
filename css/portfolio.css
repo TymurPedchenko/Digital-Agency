@@ -1,0 +1,19 @@
+.portfolio-container {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.portfolio-subtitle {
+  margin-bottom: 19px;
+}
+
+.portfolio-title {
+  margin-bottom: 47px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 41px;
+  column-gap: 37px;
+}

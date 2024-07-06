@@ -1,9 +1,32 @@
+.advantages-container {
+  padding-top: 82px;
+  padding-bottom: 82px;
+}
+
+.advantages-list {
+  display: flex;
+  gap: 200px;
+}
+
+.advantages-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantages-image {
+  margin-bottom: 23px;
+}
+
 .advantage-title {
+  margin-bottom: 9px;
+
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
 }
+
 .advantage-text {
   font-weight: 400;
   font-size: 16px;
